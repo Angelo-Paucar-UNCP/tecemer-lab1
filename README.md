@@ -35,7 +35,13 @@ tecemer-lab1/
 ├── requirements.txt
 └── README.md
 5. Autor y Curso
-Autor: [Angelo PAUCAR MARCA]
+Autor: Angelo PAUCAR MARCA
 
 Curso: Tecnologías Emergentes — ISO46B
 ```
+
+## Flujo de Datos (Laboratorio 2)
+
+- **Fuente:** API pública de Open-Meteo (pronóstico de 7 días para la ciudad de Huancayo).
+- **Transformación:** Procesamiento con Pandas para calcular la amplitud térmica diaria, detectar días lluviosos y clasificar los días según su temperatura máxima.
+- **Salida:** Archivos CSV exportados (`pronostico_huancayo_procesado.csv` y `resumen_por_categoria.csv`) listos para análisis visual o reportes.
