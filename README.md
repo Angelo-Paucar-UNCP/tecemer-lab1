@@ -36,7 +36,7 @@ Linux/macOS: source .venv/bin/activate
 
 Curso: Tecnologías Emergentes — ISO46B
 
-# Flujo de Datos (Semana 2)
+## Flujo de Datos (Semana 2)
 
 Fuente: API pública de Open-Meteo (pronóstico de 7 días para la ciudad de Huancayo).
 Transformación: Procesamiento con Pandas para calcular la amplitud térmica diaria, detectar días lluviosos y clasificar los días según su temperatura máxima.
@@ -56,6 +56,7 @@ python organizador.py <carpeta> [--dry-run]
 Pruebas: test_organizador.py cubre clasificacion, movimiento real y modo
 simulacion, usando la fixture tmp_path de pytest para no afectar el
 sistema de archivos real. Ejecutar con: pytest -v
+
 # Laboratorio 4: Construcción de una red neuronal artificial con la librería Keras sobre TensorFlow.
 
 Breve proyecto de laboratorio para configurar un entorno de desarrollo profesional en Python, implementando un script que consume una API pública de chistes.
